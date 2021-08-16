@@ -13,8 +13,7 @@ TXT=""" [infinity](https://t.me/infinityclk) """
 @Client.on_message(filters.media & filters.channel)
 async def caption(client, message: Message):
     kopp, _ = get_file_id(message)
-    await message.edit(f"<code>{kopp.file_name}</code>\n\n{TXT}"
-        ))
+    await message.edit(f"<code>{kopp.file_name}</code>\n\n{TXT}")
 
 def get_file_id(msg: Message):
     if msg.media:
