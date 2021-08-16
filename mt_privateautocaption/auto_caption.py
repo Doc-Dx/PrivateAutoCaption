@@ -8,7 +8,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 from pyrogram.errors import FloodWait
 
-TXT=""" [infinity](https://t.me/infinityclk) """
+TXT=""" **[ʙᴏᴛꜱ](https://t.me/bots_infinity)| [ᴍᴏᴠɪᴇꜱ](https://t.me/infinityclk) | [ꜱᴇʀɪᴇꜱ](https://t.me/infinityclk)** """
 
 @Client.on_message(filters.media & filters.channel)
 async def caption(client, message: Message):
