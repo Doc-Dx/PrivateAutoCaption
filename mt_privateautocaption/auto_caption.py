@@ -8,12 +8,12 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 from pyrogram.errors import FloodWait
 
-TXT=""" **[ʙᴏᴛꜱ](https://t.me/bots_infinity)| [ᴍᴏᴠɪᴇꜱ](https://t.me/infinityclk) | [ꜱᴇʀɪᴇꜱ](https://t.me/infinityclk)** """
+CAPTION_TEXT=Config.CAPTION
 
 @Client.on_message(filters.media & filters.channel)
 async def caption(client, message: Message):
     kopp, _ = get_file_id(message)
-    await message.edit(f"<code>{kopp.file_name}</code>\n\n{TXT}")
+    await message.edit(f"<code>{kopp.file_name}</code>\n\n{CAPTION_TEXT}")
 
 def get_file_id(msg: Message):
     if msg.media:
