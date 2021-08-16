@@ -27,6 +27,7 @@
         "BUTTON": {
             "description": "Button Name",
             "value": ""
+            "required": false
         },
         "CAPTION": {
             "description": "Caption Text",
@@ -35,6 +36,7 @@
         "LINK": {
             "description": "Group Or Chanenl Link",
             "value": "t.me/mo_tech_yt"
+            "required": false
         },
         "BOT_USERNAME": {
             "description": "Your Bot Username From @BotFather",
