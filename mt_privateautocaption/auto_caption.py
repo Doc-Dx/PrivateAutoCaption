@@ -12,11 +12,12 @@ CAPTION_TEXT=Config.CAPTION
 BUTTON_TEXT=Config.BUTTON_TEXT
 URL_LINK=Config.URL_LINK
 TXT=""" [infinity](https://t.me/infinityclk) """
+TVT=""" [@InfinityLK]. """
 
 @Client.on_message(filters.media & filters.channel)
 async def caption(client, message: Message):
     kopp, _ = get_file_id(message)
-    await message.edit(f"<code>{kopp.file_name}</code>\n\n{TXT}",
+    await message.edit(f"<code>{TVT}{kopp.file_name}</code>\n\n{TXT}",
           reply_markup=InlineKeyboardMarkup(
               [[
               InlineKeyboardButton(f"{BUTTON_TEXT}", url=f"{URL_LINK}")
