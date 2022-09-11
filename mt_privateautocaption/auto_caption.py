@@ -8,8 +8,8 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 from pyrogram.errors import FloodWait
 
-TXT=""" **▫️ [ᴋᴏʀᴇᴀɴ](https://t.me/kdl_chat) | [ᴍᴏᴠɪᴇꜱ](https://t.me/infinityclk) | [ꜱᴇʀɪᴇꜱ](https://t.me/infinitylk) ▫️** """
-TVA="""#"""
+TXT="""**• @infinityLK | @infinityCLK •**"""
+TVT="""**➥ File Name :**"""
 
 @Client.on_message(filters.media & filters.channel)
 async def caption(client, message: Message):
