@@ -9,7 +9,7 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 from pyrogram.errors import FloodWait
 
 TXT="""**• @infinityLK | @infinityCLK •**"""
-TVT="""**➥ File Name :**"""
+TVA="""**➥ File Name :**"""
 
 @Client.on_message(filters.media & filters.channel)
 async def caption(client, message: Message):
