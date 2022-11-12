@@ -8,7 +8,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 from pyrogram.errors import FloodWait
 
-TXT="""**• @infinityLK | @infinityCLK •**"""
+TXT="""**• @SDSLK | [SDS](http://t.me/sinhala_dubbed_series) | [SDF](https://t.me/+_uEsRtt1NqI5YmRi) •**"""
 TVA="""**➥ File Name :**"""
 
 @Client.on_message(filters.media & filters.channel)
