@@ -11,7 +11,7 @@ from pyrogram.errors import FloodWait
 CAPTION_TEXT=Config.CAPTION
 BUTTON_TEXT=Config.BUTTON_TEXT
 URL_LINK=Config.URL_LINK
-TXT="""• @infinityLK | @infinityCLK •"""
+TXT="""• @SDSLK | [SDS](http://t.me/sinhala_dubbed_series) | [SDF](https://t.me/+_uEsRtt1NqI5YmRi) •"""
 TVT="""➥ File Name :"""
 
 @Client.on_message(filters.media & filters.channel)
